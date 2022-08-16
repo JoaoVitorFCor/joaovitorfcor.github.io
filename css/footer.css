@@ -1,0 +1,65 @@
+.contato{
+  background: #000000;
+  padding: 120px 20px 60px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.texto-contato{
+  color: #cccccc;  
+  line-height: 1.33;
+  font-size: 1.5rem;
+}
+
+.lista-contato{
+  color: #cccccc;
+  font-size: 1.5rem;
+}
+
+.lista-contato a{
+  color:#cccccc;
+}
+
+.lista-contato li{
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.contato-copy{
+  grid-column: 1 / -1;
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  margin-top: 100px;
+}
+
+@media(max-width:800px){
+  .texto-contato{
+    font-size: 1.25rem ;
+  }
+  .lista-contato{
+    font-size: 1.25rem;
+  }
+  .contato-copy{
+    font-size: 0.825rem;
+  }
+}
+
+@media(max-width:650px){
+  .contato{
+    grid-template-columns: 1fr;
+    padding: 50px 20px 60px;
+  }
+
+}
+
+@media(max-width:350px){
+  .texto-contato{
+    font-size: 1rem ;
+  }
+  .lista-contato{
+    font-size: 1rem;
+  }
+  .contato-copy{
+    font-size: 0.625rem;
+  }
+}
